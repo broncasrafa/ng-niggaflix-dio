@@ -1,0 +1,16 @@
+<div class="banner" [style.background-image]="'url('+imageBanner+')'">
+    <div class="banner_container">
+        <h3 class="banner_container__titulo">{{item.title}}</h3>
+        <p class="banner_container__descricao">
+            {{item.synopse}}
+        </p>
+        <div class="banner_container__botoes">
+            <button role="button" class="botao btn-color-primary hasLabel hasIcon">
+                <i class="fa fa-play"></i> Assistir
+            </button>
+            <button role="button" class="botao btn-color-secondary hasLabel hasIcon">
+                <i class="fa fa-info-circle"></i> Mais informações
+            </button>
+        </div>
+    </div>
+</div>

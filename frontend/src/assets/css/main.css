@@ -1,0 +1,17 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: var(--preto);
+    color: #fff;
+}

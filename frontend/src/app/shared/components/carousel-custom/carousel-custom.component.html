@@ -1,0 +1,9 @@
+<div class="carousel-filmes" *ngIf="contemDados()">
+    <owl-carousel-o [options]="defaultOptions">
+        <ng-container *ngFor="let item of slideItems">
+            <ng-template carouselSlide [id]="item.id">
+                <img class="box-filme" [src]="item.src" [alt]="item.alt" [title]="item.title" />
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</div>
